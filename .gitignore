@@ -1,0 +1,7 @@
+.idea/
+__pycache__/
+log
+misc
+*.mp3
+*.mp4
+*.wav
