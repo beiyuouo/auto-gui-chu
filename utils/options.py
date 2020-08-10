@@ -17,6 +17,7 @@ def args_parser():
     parser.add_argument('--bgm_coefficient', type=float, default=2)
     parser.add_argument('--video_coefficient', type=float, default=3)
     parser.add_argument('--bias', type=float, default=0.1)
+    parser.add_argument('--seq', type=int, default=10)
     parser.add_argument('--opt', type=str, default='normal')
     args = parser.parse_args()
     return args
