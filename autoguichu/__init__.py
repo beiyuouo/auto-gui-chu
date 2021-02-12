@@ -11,4 +11,9 @@ logging.basicConfig(level=logging.DEBUG)
 from .guichu import *
 from .options import *
 from .utils import *
-from .ffmpeg import *
+from . import utils
+
+
+def init():
+    utils.args = args_parser()
+    print(utils.args)

@@ -6,7 +6,7 @@
 import autoguichu as agc
 
 if __name__ == '__main__':
-    args = agc.options.args_parser()
-    gc = agc.guichu(args)
+    agc.init()
+    gc = agc.guichu(agc.utils.args)
     gc.generate()
 
