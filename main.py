@@ -1,23 +1,12 @@
-import os
-from copy import copy
+# Author: BeiYu
+# Github: https://github.com/beiyuouo
+# Date  : 2021/2/11 10:17
+# Description:
 
-from utils.options import *
-from utils.GuichuClip import *
-from moviepy.editor import *
-import numpy as np
-import matplotlib.pyplot as plt
-
-
-def test(args):
-    my = guichu(args)
-
-
-def main(args):
-    my = guichu(args)
-    my.make()
-
+import autoguichu as agc
 
 if __name__ == '__main__':
-    args = args_parser()
-    main(args)
-    # test(args)
+    agc.init()
+    gc = agc.guichu(agc.utils.args)
+    gc.generate()
+

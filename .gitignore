@@ -1,7 +1,27 @@
+# visual studio code
+.vscode/
 .idea/
+
+# python
+venv/
+virtualenv/
 __pycache__/
-log
-misc
+
+# misc
+.DS_Store
+
+# results
 *.mp3
 *.mp4
 *.wav
+
+# notebook checkpoints
+.ipynb_checkpoints
+
+# path
+!autoguichu/*
+log/*
+misc/*
+data/*
+*.pyc
+test/*
