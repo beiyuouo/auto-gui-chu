@@ -14,6 +14,13 @@ run `pip install -r requirements.txt`
 See at [wiki](https://github.com/beiyuouo/auto-gui-chu/wiki)
 
 ## Changelog
+
+### auto-gui-chu v0.1.1_210212_alpha
+- Finish basic function.
+
+<details>
+<summary>Click to see more</summary>
+
 ### auto-gui-chu v0.1.0_210211_alpha
 - Rename to auto-gui-chu
 - Redesign logic and rebuild code structure
@@ -25,5 +32,13 @@ See at [wiki](https://github.com/beiyuouo/auto-gui-chu/wiki)
 ### Auto-Guichu v0.0.1_200809_alpha
 - Base function
 
+</details>
+
+
+## TODO
+
+See at [auto-gui-chu project](https://github.com/beiyuouo/auto-gui-chu/projects/1)
+
 ## Inspire By
+
 - [HypoX64/GuiChu](https://github.com/HypoX64/GuiChu)
